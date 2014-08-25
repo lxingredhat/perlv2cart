@@ -2,7 +2,7 @@ Name: perl
 Cartridge-Short-Name: PERL
 Display-Name: Perl 5.10
 Description: "Perl is a general-purpose server-side scripting language originally designed for Web development to produce dynamic Web pages. Popular development frameworks include: CakePerl, Zend, Symfony, and Code Igniter."
-Version: 'aa5.10'
+Version: '5.10a'
 License: "GPL v2"
 License-Url: http://dev.perl.org/licenses/
 Vendor: perl.org
@@ -46,7 +46,7 @@ Cart-Data:
 Provides:
   - perl-5.10
   - "perl"
-  - "perl(version) = aa5.10"
+  - "perl(version) = 5.10"
 Publishes:
   publish-http-url:
     Type: "NET_TCP:httpd-proxy-info"
