@@ -1,5 +1,5 @@
 #!/bin/bash -eu
-
+date > ${OPENSHIFT_DATA_DIR}/$key
 if [ -f ${OPENSHIFT_REPO_DIR}.openshift/markers/force_clean_build ]
 then
     echo ".openshift/markers/force_clean_build found!  Rebuilding perl modules" 1>&2
